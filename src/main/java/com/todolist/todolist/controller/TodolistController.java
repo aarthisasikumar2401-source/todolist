@@ -5,6 +5,7 @@ import com.todolist.todolist.service.TodolistService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+@CrossOrigin(origins = "http://65.0.205.19:8080")
 
 @RestController
 @RequestMapping("/todolist")
